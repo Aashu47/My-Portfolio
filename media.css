@@ -1,0 +1,463 @@
+@media (max-width: 991px) {
+.container{
+     padding: 0rem 0;
+}
+.hero-section-heading{
+     font-size:35px;
+}
+
+.hero-section-subheading{
+        font-size: 35px;
+}
+.hero-section-descrption{
+        font-size: 15px;
+}
+
+.user-image img{ 
+        width: 400px;
+        height: 410px;
+}
+
+.AboutMe-section-left p{
+    font-size: 14px;
+    
+}
+
+.bars{
+     font-size: 1.5vw;
+     gap:3rem;
+     padding-top:50px;
+}
+ .progress{
+    width: 380px;
+}
+
+.footer-text p {
+    margin-left:200px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .nav-logo {
+      margin-left: 20px; /* Adjust the margin as per your preference */
+    }
+    
+    .nav-items {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      right:0;
+      width: 50%;
+      background-color: var(--second-bg-color);
+      padding: 10px;
+      transition: right 0.3s ease-in-out;
+      z-index:100;
+    }
+    
+    
+    .nav-items div {
+      text-align: center;
+      margin: 10px 0;
+    }
+    
+    .nav-items div a {
+      font-size: 18px; /* Adjust the font size as per your preference */
+    }
+    
+    #menu-icon {
+      display: inline-block;
+    }
+    
+    #cancel-icon {
+      display: none;
+    }
+    
+    .navbar.active .nav-items {
+      display: flex;
+    }
+    
+    .navbar.active #menu-icon {
+      display: none;
+    }
+    
+    .navbar.active #cancel-icon {
+      display: inline-block;
+    }
+
+    .hero-section{
+        gap:.5rem;   
+    }
+    .hero-section-left{
+        gap: 1rem;
+        padding:0;     
+  }
+  .user-image img{
+    width: 380px;
+    height: 380px;
+    margin-left: -100px;   
+}
+.AboutMe-section-left{
+    padding-left: 30px;
+  }
+.aboutMe{
+    font-size: 3.5em;
+    padding: 3rem 0 3rem 0 ;
+    text-align:center;
+  }
+  .AboutMe-section-left p{
+    font-size: 15px; 
+    margin: 6px 0px;
+  }
+  .skills{
+    height: 1000px;
+  }
+  .skill-heading {
+    font-size: 3.5em;
+  }
+  .skills-logo {
+    width: 45px;
+    height: 50px;
+  }
+  .progress{
+    width: 300px;
+}
+
+
+  .page-header {
+    font-size: 3.5rem;
+  }
+  .project-container{
+    gap:80px;
+  }
+  .project-card {
+    width: 80%;
+    height: 350px;
+  }.project-number {
+    font-size: 80px;
+    font-weight: 500;
+  }  
+  .project-content {
+    padding: 1em;
+  }
+  .project-skill {
+    width: 30px;
+  }
+  .project-heading {
+    font-size:1.5rem;
+    line-height: 1rem;
+  }
+  .project-subHeading {
+    font-size: 14px;
+  }
+  .project-content-left {
+    left: 10%;
+  }
+  
+  .project-content-right {
+    padding-left:100px;
+  }
+  .contactus-heading {
+    font-size: 3.5rem;
+    padding-left: 90px;
+  }
+  .contactus-sub-heading {
+    font-size: 1.2rem;
+    padding-left: 100px;
+  }
+  .form {
+    gap: 30px;
+    padding-left: 80px;
+  }
+  .footer-faded-text {
+    font-size: 2em;
+  }
+  .footer-text p {
+    font-size: 13px;
+    padding-top:75px;
+  }
+  .footer-iconTop a{
+    margin-top: 65px;
+  }
+  .footer-iconTop a i{
+    font-size: 1rem;
+  }
+  .btn-pink {
+    padding: 0.6rem 0.6rem;
+    font-size: 15px;   
+}
+.btn-grp .icon {
+    font-size: 30px;
+  }
+}
+ 
+
+   @media (max-width : 617px) {
+    .hero-section{
+        height: 850px;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 150px auto
+    }
+    .hero-section-left{
+        gap: 1.7rem;
+        padding: 0 10px 0 120px;  
+    }
+    .hero-section-heading{
+        font-size: 2.5rem;
+    } 
+    .About-me {
+    flex-direction:column;
+      height: 1200px;
+  }
+  .AboutMe-section-left{
+    width: 100%;
+    padding: 0px 25px;
+  }
+  .aboutMe{
+    font-size: 3rem;
+    }
+    .AboutMe-section-right{
+        width:100%;
+        margin-top:-100px;
+    }
+    .skills{
+        height: 800px;
+      }
+      .skill-heading {
+        font-size: 3rem;
+      }
+      .skills-logo {
+        width: 0px;
+        height: 0px;
+        
+      }
+      .bars{
+        margin-top:-20px;
+      }
+      .progress{
+        width: 230px;
+    }
+    
+.page-header {
+    font-size: 3rem;
+    padding-top: 0px;
+  }
+  
+  .project-container {
+    gap: 50px;
+  }
+  
+  .project-card {
+    width: 80%;
+    height: 250px;
+  }
+  .project-number {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .project-content {
+    padding: 0.5em;
+    bottom: 0%;
+    gap: 0.5rem;
+  }
+  .project-content-left {
+    left: 10%;
+  }
+  
+  .project-content-right {
+    right: -200px;
+  }
+  .project-heading {
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+  }
+  .project-subHeading {
+    font-size: 13px;
+  }
+  .btn-grp .icon {
+    font-size: 25px;
+  }
+  #project1{
+    margin-left: 50px;
+  }
+  #project2 {
+    margin-left: 50px;
+  }
+  #project3 {
+    margin-left: 50px;
+  }
+  #project4 {
+    margin-left: 50px;
+  }
+  .btn-pink {
+    padding: 0.6rem 0.6rem;
+    font-size: 10px;
+    border: solid 3px transparent;   
+    }
+    .footer-faded-text {
+        font-size: 2em;
+      }
+      .footer-text p {
+        font-size: 13px;
+        padding-top:75px;
+      }
+      .footer-iconTop a{
+        margin-top: 65px;
+      }
+      .footer-iconTop a i{
+        font-size: 1rem;
+      }.footer-faded-text {
+    font-size: 2em;
+  }
+  .footer-text p {
+    font-size: 13px;
+    padding-top:68px;
+  }
+  .footer-iconTop a{
+    margin-top: 56px;
+  }
+  .footer-iconTop a i{
+    font-size: 0.7rem;
+  }
+  .contactus-heading {
+    font-size: 3rem;
+    padding  :0;
+    margin:0;
+    padding-bottom: 20px;
+  }
+  
+  .contactus-sub-heading {
+    font-size: 1rem;
+    padding:0 ;
+    padding-bottom: 20px;
+    margin:0;
+  }
+  
+  .contactus-form-container {
+    padding  :0;
+    margin:0;
+  }
+  
+  .form {
+    gap: 30px;
+    width: 80%;
+    margin: 0;
+    padding:0;
+  }
+  #submit-btn {
+    font-size: 1rem;
+  }   
+  .submit-icon {
+    font-size: 1rem;
+  }
+  
+   }
+     
+   @media (max-width : 520px) {
+    .user-image{
+        margin-left:30px;
+    }
+    .hero-section-icon{
+        font-size: 25px;
+        font-weight: 500;
+       }
+    .progress{
+        width: 200px;
+    }
+    .contactus-heading {
+        font-size: 3rem;
+        padding  :0;
+        margin:0;
+        padding-bottom: 20px;
+      }
+      
+      .contactus-sub-heading {
+        font-size: 1rem;
+        padding:0 ;
+        padding-bottom: 20px;
+        margin:0;
+      }
+      
+      .contactus-form-container {
+        padding  :0;
+        margin:0;
+      }
+      
+      .form {
+        gap: 30px;
+        width: 80%;
+        margin: 0;
+        padding:0;
+      }
+      #submit-btn {
+        font-size: 1rem;
+      }   
+      .submit-icon {
+        font-size: 1rem;
+      }
+      
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-faded-text {
+        font-size: 1.5rem;
+      }
+      .footer-text p {
+        font-size: 11px;
+        padding-top:0px;
+        margin: 50px 0 0 0;
+      }
+      .footer-iconTop a{
+        margin-top: -10px;
+        margin-left:28rem;
+      }
+      .footer-iconTop a i{
+        font-size: 0.7rem;
+      }
+   }
+   @media (max-width : 450px){
+   .user-image{
+   margin-left:-2px;
+   }
+   .userImage img{
+    height: 70%;
+    max-width: 100%;
+    margin-top:-130px;
+  }
+  .skills{
+    height: 1500px;
+    background-color: var(--gr);
+  }
+  .bars{
+    flex-direction: column;
+    margin-top: 0px;
+    font-size: 15px;
+    gap:2rem;
+  }
+  .progress{
+    width: 300px;
+    height: 17px;    
+   }
+   .progress-hr{
+    margin-top: 15px;
+ }
+ .footer-iconTop a{
+    margin-top: -10px;
+    margin-left:23rem;
+  }
+  .project-content {
+    padding: 0.9;
+    bottom: 0%;
+    gap: 0.2rem;
+  }
+  .project-content-left {
+    left: 10%;
+  }
+  
+  .project-content-right {
+    right: 0;
+    left:0;
+  }
+   }
