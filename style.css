@@ -692,7 +692,7 @@ footer {
 .footer-text p {
   font-size: 15px;
   color:white;
-  padding-top:70px;
+  padding-top:60px;
 }
 
 
@@ -704,11 +704,11 @@ footer {
   background: var(--bg-color);
   border-radius: 1.2rem;
   transition: 0.5s ease;
-  margin-top: 60px;
+  margin-top: 50px;
   
 }
 .footer-iconTop a i{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--aqua);
   
 }
