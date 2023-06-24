@@ -461,3 +461,106 @@
     left:0;
   }
    }
+
+   @media (max-width : 365px) {
+    .hero-section{
+      gap: 1.5rem;
+      margin:0;
+      padding:0;
+  }
+  .hero-section-left{
+      gap: 1rem;
+      padding: 0 0 0 50px;       
+  }
+  .hero-section-heading{
+      font-size: 1.8rem;
+  } 
+  .user-image img{
+    width: 300px;
+    height: 300px;
+  
+}
+.aboutMe{
+  font-size: 2.5em;
+  padding: 10 0;
+}
+.AboutMe-section-left p{
+  font-size: 13px;
+}
+.userImage{
+  padding-top: 8rem; 
+}
+.skills{
+  height: 1500px;
+}
+.skill-heading {
+   font-size: 2rem;
+}  
+.project-number {
+  font-size: 40px;
+}
+
+.project-content {
+  padding: 0.5em;
+  gap: 0.3rem;
+}
+.project-heading {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.project-subHeading {
+  font-size: 11px;
+}
+.btn-grp .icon {
+  font-size: 20px;
+}
+#project1{
+  margin-left: 50px;
+}
+  .footer-faded-text {
+    padding-left: 15px;
+    }
+    .footer-text p {
+     padding-left: 15px;
+    }
+    .footer-iconTop a i{
+      padding-right: 0;
+      padding-left:0px;
+      padding-top:0px;
+
+    }
+.contactus-heading {
+  font-size: 3rem;
+  padding  :0;
+  margin:0;
+  padding-bottom: 20px;
+}
+
+.contactus-sub-heading {
+  font-size: 1rem;
+  padding:0 ;
+  padding-bottom: 20px;
+  margin:0;
+}
+
+.contactus-form-container {
+  padding  :0;
+  margin:0;
+}
+
+.form {
+  gap: 30px;
+  width: 80%;
+  margin: 0;
+  padding:0;
+}
+#submit-btn {
+  font-size: 1rem;
+}   
+.submit-icon {
+  font-size: 1rem;
+}
+
+ }
+   
+ 
